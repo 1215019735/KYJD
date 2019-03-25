@@ -1,0 +1,246 @@
+<extend name="Base:Index" />
+<block name="Public">
+    <div id="content">
+        <div id="content-header">
+            <div id="breadcrumb"> <a href="javascript:void(0)" title="Go to Home" class="tip-bottom"><i class="icon-home"></i><span>首页</span></a>
+                <a href="{:U('Index')}" class="tip-bottom"><span>地图导航-管理</span></a>
+                <a href="{:U('Add')}" class="current">修改-地图导航</a></div>
+            <h1>地图导航-修改页面</h1>
+        </div>
+        <hr />
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="widget-box">
+                        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+                            <h5>地图导航</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <form id="form" method="post" class="form-horizontal" enctype="multipart/form-data">
+                                <div class="control-group">
+                                    <label class="control-label">图片 :</label>
+                                    <div class="controls">
+                                        <input type="text" id="url" name="img" value="{$data.img}" required />
+                                        <button id="image" class="btn btn-success" type="button">选择图片</button>
+                                        <div id="imageView">
+                                            <img src="{$data.img}" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">名称 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" name="title" value="{$data.title}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">联系人 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" name="name" value="{$data.name}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">联系电话 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" name="tel" value="{$data.tel}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">地址 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" name="address" value="{$data.address}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">导航 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" name="nav" value="{$data.nav}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">名称-英文版 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" name="etitle" value="{$data.etitle}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">联系人-英文版 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" name="ename" value="{$data.ename}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">地址-英文版 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" name="eaddress" value="{$data.eaddress}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">导航-英文版 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" name="enav" value="{$data.enav}" />
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+                                    <div class="btn-group" style="margin-left:180px;">
+                                        <button class="btn btn-success"><i class="icon-ok"></i> 保存</button>
+                                        <button type="button" class="btn btn-success" onclick="history.back()"><i class="icon-chevron-left"></i>
+                                            取消</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="__Public__/kindeditor/kindeditor-all.js"></script>
+    <script src="__Public__/kindeditor/lang/zh-CN.js"></script>
+    <script src="__Public__/kindeditor/plugins/code/prettify.js"></script>
+    <script>
+        $(document).ready(function () {
+            KindEditor.ready(function (K) {
+                var editor = K.editor({
+                    allowFileManager: true
+                });
+                K('#image').click(function () {
+                    editor.loadPlugin('image', function () {
+                        editor.plugin.imageDialog({
+                            showRemote: false,
+                            imageUrl: K('#url').val(),
+                            clickFn: function (url, title, width, height,
+                                border, align) {
+                                $("#licensecheck").html("");
+                                var div = K('#imageView');
+                                div.html('');
+                                div.append('<img src="' + url +
+                                    '" width="220">');
+                                K('#url').val(url);
+                                editor.hideDialog();
+
+                                var Width = parseInt($('#form').width() -
+                                    200); //获取父级元素的宽度
+                                $("#imageView>img").each(function (i) {
+                                    var img = $(this);
+                                    var realWidth; //真实的宽度
+                                    var realHeight; //真实的高度
+                                    //这里做下说明，$("<img/>")这里是创建一个临时的img标签，类似js创建一个new Image()对象！
+                                    $("<img/>").attr("src", $(img).attr(
+                                        "src")).load(function () {
+                                        /*
+                                          如果要获取图片的真实的宽度和高度有三点必须注意
+                                          1、需要创建一个image对象：如这里的$("<img/>")
+                                          2、指定图片的src路径
+                                          3、一定要在图片加载完成后执行如.load()函数里执行
+                                         */
+                                        realWidth = this.width;
+                                        realHeight = this.height;
+                                        //如果真实的宽度大于浏览器的宽度就按照100%显示
+                                        if (realWidth >=
+                                            Width) {
+                                            $(img).css(
+                                                "width",
+                                                "100%");
+                                        } else { //如果小于浏览器的宽度按照原尺寸显示
+                                            $(img).css(
+                                                "width",
+                                                realWidth +
+                                                'px');
+                                        }
+
+                                        $('#imageView>img')
+                                            .css({
+                                                'width': '220px'
+                                            });
+
+                                        $('#imageView>img')
+                                            .click(function () {
+                                                if ($(
+                                                        '#imageView'
+                                                    ).hasClass(
+                                                        'scale'
+                                                    )) {
+                                                    $(
+                                                            '#imageView'
+                                                        )
+                                                        .removeClass(
+                                                            'scale'
+                                                        )
+                                                        .children(
+                                                            'img'
+                                                        )
+                                                        .css({
+                                                            'width': '220px'
+                                                        });
+                                                } else {
+                                                    $(
+                                                            '#imageView'
+                                                        )
+                                                        .addClass(
+                                                            'scale'
+                                                        )
+                                                        .children(
+                                                            'img'
+                                                        )
+                                                        .css({
+                                                            'width': realWidth
+                                                        });
+                                                }
+                                            });
+                                    });
+                                });
+                            }
+                        });
+                    });
+                });
+            });
+
+            //表单验证
+            $().ready(function () {
+                $('#form').validate();
+            });
+
+            var Width = parseInt($('#form').width() - 200); //获取父级元素的宽度
+            $("#imageView>img").each(function (i) {
+                var img = $(this);
+                var realWidth; //真实的宽度
+                var realHeight; //真实的高度
+                //这里做下说明，$("<img/>")这里是创建一个临时的img标签，类似js创建一个new Image()对象！
+                $("<img/>").attr("src", $(img).attr("src")).load(function () {
+                    /*
+                      如果要获取图片的真实的宽度和高度有三点必须注意
+                      1、需要创建一个image对象：如这里的$("<img/>")
+                      2、指定图片的src路径
+                      3、一定要在图片加载完成后执行如.load()函数里执行
+                     */
+                    realWidth = this.width;
+                    realHeight = this.height;
+                    //如果真实的宽度大于浏览器的宽度就按照100%显示
+                    if (realWidth >= Width) {
+                        $(img).css("width", "100%");
+                    } else { //如果小于浏览器的宽度按照原尺寸显示
+                        $(img).css("width", realWidth + 'px');
+                    }
+
+                    $('#imageView>img').css({
+                        'width': '220px'
+                    });
+
+                    $('#imageView>img').click(function () {
+                        if ($('#imageView').hasClass('scale')) {
+                            $('#imageView').removeClass('scale').children('img').css({
+                                'width': '220px'
+                            });
+                        } else {
+                            $('#imageView').addClass('scale').children('img').css({
+                                'width': realWidth
+                            });
+                        }
+                    });
+                });
+            });
+        })
+    </script>
+</block>

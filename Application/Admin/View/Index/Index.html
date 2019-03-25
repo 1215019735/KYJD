@@ -1,0 +1,50 @@
+<extend name="Base:Index" />
+<block name="Public">
+    <div id="content">
+        <div id="content-header">
+            <div id="breadcrumb">
+                <a href="javascript:void(0)" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> <span>首页</span></a>
+                <a href="{:U('Index')}" class="current"><span>系统信息</span></a>
+            </div>
+            <h1>系统信息</h1>
+        </div>
+        <hr />
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="widget-box">
+                        <div class="widget-title"> <span class="icon"> <i class="icon-th"></i> </span>
+                            <h5>系统信息</h5>
+                        </div>
+                        <div class="widget-content">
+                            <table class="table table-bordered table-striped">
+                                <tbody>
+                                    <tr class="odd gradeX">
+                                        <td class="center half">请求Host</td>
+                                        <td class="center half">{$Think.server.HTTP_HOST}</td>
+                                    </tr>
+                                    <tr class="odd gradeX">
+                                        <td class="center half">服务器系统</td>
+                                        <td class="center half">{$info.os}({$info.osBit})</td>
+                                    </tr>
+                                    <tr class="odd gradeX">
+                                        <td class="center half">PHP版本</td>
+                                        <td class="center half">{$info.php}</td>
+                                    </tr>
+                                    <tr class="odd gradeX">
+                                        <td class="center half">数据库类型</td>
+                                        <td class="center half">{$info.dataType}</td>
+                                    </tr>
+                                    <tr class="odd gradeX">
+                                        <td class="center half">数据库大小</td>
+                                        <td class="center half">{$info.dataSize} KB</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</block>

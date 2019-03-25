@@ -1,0 +1,110 @@
+<extend name="Base:Index" />
+<block name="Public">
+    <div id="content">
+        <div id="content-header">
+            <div id="breadcrumb">
+                <a href="javascript:void(0)" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> <span>首页</span></a>
+                <a href="{:U('Index')}" class="current"><span>新闻资讯-管理</span></a>
+            </div>
+            <h1>新闻资讯-管理中心</h1>
+        </div>
+        <hr />
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <form method="get">
+                        <div class="widget-box">
+                            <div class="widget-title">
+                                <span class="icon">
+                                    <i class="icon-search"></i>
+                                </span>
+                                <h5>
+                                    搜索
+                                </h5>
+                            </div>
+                            <div class="widget-content">
+                                <select name="category">
+                                    <option value="">===请选择分类===</option>
+                                    <volist name="cate" id="N">
+                                        <if condition="$N.id eq $category">
+                                            <option value="{$N.id}" selected>{$N.str}{$N.name}</option>
+                                            <else />
+                                            <option value="{$N.id}">{$N.str}{$N.name}</option>
+                                        </if>
+                                    </volist>
+                                </select>
+                                <input name="key" type="text" value="" placeholder="输入文章名称关键词">
+                                <br />
+                                <button type="submit" class="btn">
+                                    <i class="icon-search"></i> 查询
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="widget-box">
+                        <div class="widget-title"> <span class="icon"> <i class="icon-th"></i> </span>
+                            <h5>新闻资讯</h5>
+                        </div>
+                        <form method="post" id="form">
+                            <div class="widget-content">
+                                <div class="btn-group mb10">
+                                    <a href="{:U('Add')}" class="btn btn-danger">
+                                        <i class="icon-plus"></i> 添加
+                                    </a>
+                                    <button id="delall" ajax-url="{:U('Delete')}" type="button" class="btn"
+                                        onclick="common.DelAll('#form','#delall')"><i class="icon-remove"></i> 删除所选</button>
+                                    <button type="button" class="btn" onclick="history.back()"><i class="icon-chevron-left"></i>
+                                        返回</button>
+                                </div>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th class="check">
+                                                <input type="checkbox" name="checkall" />
+                                            </th>
+                                            <th>分类</th>
+                                            <th>标题</th>
+                                            <th class="images">图片</th>
+                                            <th>发布时间</th>
+                                            <th>排序</th>
+                                            <th class="handle"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <foreach name="data.list" item="vo">
+                                            <tr class="odd gradeX">
+                                                <td class="center fontCenter">
+                                                    <input type="checkbox" name="checkbox" value="{$vo.id}">
+                                                </td>
+                                                <td class="center fontCenter">{$vo.name}</td>
+                                                <td class="center fontCenter">{$vo.title}</td>
+                                                <td class="center fontCenter">
+                                                    <img src="{$vo.img}" />
+                                                </td>
+                                                <td class="center fontCenter">{$vo.times}</td>
+                                                <td class="center fontCenter">{$vo.orderid}</td>
+                                                <td class="center fontCenter">
+                                                    <div class="btn-group">
+                                                        <a href="{:U('Edit',array('id'=>$vo['id']))}" class="btn btn-mini btn-info">
+                                                            <i class="icon-edit"></i> 修改
+                                                        </a>
+                                                        <a href="javascript:void(0);" id="delete" ajax-url="{:U('Delete')}"
+                                                            onclick="common.confAction('#delete',{id:'{$vo.id}'},'确定删除？')"
+                                                            class="btn btn-mini btn-info">
+                                                            <i class="icon-remove"></i> 删除
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </foreach>
+                                    </tbody>
+                                </table>
+                                {$data.page}
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</block>

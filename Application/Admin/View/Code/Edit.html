@@ -1,0 +1,91 @@
+<extend name="Base:Index" />
+<block name="Public">
+    <div id="content">
+        <div id="content-header">
+            <div id="breadcrumb"> <a href="javascript:void(0)" title="Go to Home" class="tip-bottom"><i class="icon-home"></i><span>首页</span></a>
+                <a href="{:U('Index')}" class="tip-bottom"><span>微信二维码-管理</span></a>
+                <a href="{:U('Edit')}" class="current">修改-微信二维码</a></div>
+            <h1>微信二维码-修改页面</h1>
+        </div>
+        <hr />
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="widget-box">
+                        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+                            <h5>微信二维码</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <form id="form" method="post" class="form-horizontal" enctype="multipart/form-data">
+                                <div class="control-group">
+                                    <label class="control-label">微信二维码 :</label>
+                                    <div class="controls">
+                                        <input type="text" id="url" name="code" value="{$data.code}" required />
+                                        <button id="image" class="btn btn-success" type="button">选择图片</button>
+                                        <div id="imageView">
+                                            <img src="{$data.code}" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">名称 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" name="name" value="{$data.name}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">名称-英文版 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" name="ename" value="{$data.ename}" />
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+                                    <div class="btn-group" style="margin-left:180px;">
+                                        <button class="btn btn-success"><i class="icon-ok"></i> 保存</button>
+                                        <button type="button" class="btn btn-success" onclick="history.back()"><i class="icon-chevron-left"></i>
+                                            取消</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="__Public__/kindeditor/kindeditor-all.js"></script>
+    <script src="__Public__/kindeditor/lang/zh-CN.js"></script>
+    <script src="__Public__/kindeditor/plugins/code/prettify.js"></script>
+    <script>
+        $(document).ready(function () {
+            KindEditor.ready(function (K) {
+                var editor = K.editor({
+                    allowFileManager: true
+                });
+                K('#image').click(function () {
+                    editor.loadPlugin('image', function () {
+                        editor.plugin.imageDialog({
+                            showRemote: false,
+                            imageUrl: K('#url').val(),
+                            clickFn: function (url, title, width, height,
+                                border, align) {
+                                $("#licensecheck").html("");
+                                var div = K('#imageView');
+                                div.html('');
+                                div.append('<img src="' + url + '">');
+                                K('#url').val(url);
+                                editor.hideDialog();
+                            }
+                        });
+                    });
+                });
+            });
+
+            //表单验证
+            $().ready(function () {
+                $('#form').validate();
+            });
+        });
+    </script>
+</block>

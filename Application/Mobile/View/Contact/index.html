@@ -1,0 +1,73 @@
+<extend name="Base:index" />
+<block name="Public">
+    <div class="map">
+        <div id="allmap" class="allMap"></div>
+        <h1>地点信息</h1>
+        <ul>
+            <volist name="nav" id="N">
+                <li>
+                    <div class="nav-box">
+                        <div class="img">
+                            <img src="{$N.img}" />
+                        </div>
+                        <div class="info">
+                            <div class="tit">{$N.title}</div>
+                            <div class="Tel">{$N.name}：{$N.tel}</div>
+                            <div class="dz">地址：{$N.address}({$N.nav})</div>
+                        </div>
+                    </div>
+                </li>
+            </volist>
+        </ul>
+    </div>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=yUHLSxMDKaMkjlF7mVEvUZUz4vijV1qZ"></script>
+    <script>
+        /************************ 地图导航 **************************/
+        var marker = {$json};
+        var centerPoint = new BMap.Point(115.913453, 28.683878); // 默认坐标
+        if (marker != null && marker.length > 0) {
+            centerPoint.lng = marker[0].eastcoor;
+            centerPoint.lat = marker[0].northcoor;
+        }
+        var map = new BMap.Map("allmap");
+        map.centerAndZoom(centerPoint, 15);
+        map.enableScrollWheelZoom();
+        var navigationControl = new BMap.NavigationControl({
+            // 靠左上角位置
+            anchor: BMAP_ANCHOR_TOP_LEFT,
+            // LARGE类型
+            type: BMAP_NAVIGATION_CONTROL_LARGE,
+            // 启用显示定位
+            enableGeolocation: true
+        });
+        map.addControl(navigationControl);
+
+        /* 添加标记 */
+        for (var i = 0; i < marker.length; i++) {
+            addMarker(marker[i].eastcoor, marker[i].northcoor, marker[i].coorname, marker[i].coorcontent);
+        }
+        // 方法
+        function addMarker($lng, $lat, $til, $con) {
+            var ppoint = new BMap.Point($lng, $lat);
+            var marker = new BMap.Marker(ppoint);
+            map.addOverlay(marker);
+            marker.setAnimation(BMAP_ANIMATION_BOUNCE);
+            // 文字说明
+            var opts = {
+                position: ppoint, // 指定文本标注所在的地理位置
+                offset: new BMap.Size(5, -5) //设置文本偏移量
+            }
+            var label = new BMap.Label($til, opts); // 创建文本标注对象
+            map.addOverlay(label);
+            // 中心点
+            marker.addEventListener('click', function (e) {
+                //返回中心店
+                var _ppoint = new BMap.Point($lng, $lat);
+                map.panTo(_ppoint);
+                //文字说明
+                var infoWindow = new BMap.InfoWindow($con);
+                map.openInfoWindow(infoWindow, _ppoint);
+            });
+        }
+    </script>
+</block>

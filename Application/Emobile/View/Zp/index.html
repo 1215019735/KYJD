@@ -1,0 +1,30 @@
+<extend name="Base:index" />
+<block name="Public">
+    <style>
+        .public-page-info {
+            margin: 0.1rem 0;
+        }
+    </style>
+    <div class="zp-page-banner">
+        <div class="core">
+            <div class="public-title hr">
+                <span>TALENT RECRUITMENT</span>
+            </div>
+            <div class="public-page-info public">
+                <ul>
+                    <volist name="data" id="vo">
+                        <li>Post：{$vo.eposts}</li>
+                        <li>Academic：{$vo.equalifications}</li>
+                    </volist>
+                </ul>
+            </div>
+            <div class="public-page-content-box public">
+                <div class="public-page-content">
+                    <volist name="data" id="vo">
+                        {$vo.econtent|htmlspecialchars_decode}
+                    </volist>
+                </div>
+            </div>
+        </div>
+    </div>
+</block>

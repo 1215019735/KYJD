@@ -1,0 +1,62 @@
+<extend name="Base:Index" />
+<block name="Public">
+    <div id="content">
+        <div id="content-header">
+            <div id="breadcrumb"> <a href="javascript:void(0)" title="Go to Home" class="tip-bottom"><i class="icon-home"></i><span>首页</span></a>
+                <a href="{:U('Category')}" class="tip-bottom"><span>酒店展示-子分类管理</span></a>
+                <a href="{:U('CateAdd')}" class="current">添加-子分类</a></div>
+            <h1>子分类-添加页面</h1>
+        </div>
+        <hr />
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="widget-box">
+                        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+                            <h5>子分类</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <form id="form" method="post" class="form-horizontal" enctype="multipart/form-data">
+                                <div class="control-group">
+                                    <label class="control-label">分类名称 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" name="name" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">分类名称-英文版 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" name="ename" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">排序 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 100px;" required digits="true"
+                                            max="1000000" min="0" name="orderid" value="0" />
+                                        <p class="helper-block">100000以内数字（倒序）</p>
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+                                    <div class="btn-group" style="margin-left:180px;">
+                                        <button class="btn btn-success"><i class="icon-ok"></i> 保存</button>
+                                        <button type="button" class="btn btn-success" onclick="history.back()"><i class="icon-chevron-left"></i>
+                                            取消</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            //表单验证
+            $().ready(function () {
+                $('#form').validate();
+            });
+        });
+    </script>
+</block>

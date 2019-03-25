@@ -1,0 +1,44 @@
+<extend name="Base:index" />
+<block name="Public">
+    <div class="show-page-banner">
+        <div class="core">
+            <div class="public-title hr">
+                <span>酒店展示</span>
+            </div>
+            <ul class="show-page-nav">
+                <volist name="showcate" id="cate">
+                    <li>
+                        <a href="{:U('Show/index',array('id'=>$cate['id']))}">{$cate.name}</a>
+                    </li>
+                </volist>
+                <div class="vr">
+                    <a href="https://720yun.com/t/853jupmOzm2?scene_id=22576819">VR</a>
+                </div>
+            </ul>
+            <div class="show-page-box public">
+                <div class="show-page-main">
+                    <ul class="show-main-page-nav">
+                        <volist name="data" id="vo">
+                            <li>
+                                <a href="{:U('Show/content',array('id'=>$vo['id']))}">
+                                    <img src="{$vo.img}" />
+                                    <div class="show-page-title">{$vo.name}</div>
+                                </a>
+                            </li>
+                        </volist>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var navLength = $('.show-page-nav>li').length;
+        var href = window.location.href.toLowerCase();
+        for (let i = 0; i < navLength; i++) {
+            var url = $('.show-page-nav>li').eq(i).children('a').attr('href').toLowerCase();
+            if (href.lastIndexOf(url) > -1) {
+                $('.show-page-nav>li').eq(i).addClass('hover').siblings().removeClass('hover');
+            }
+        }
+    </script>
+</block>

@@ -1,0 +1,27 @@
+<extend name="Base:index" />
+<block name="Public">
+    <div class="select-banner">
+        <div class="core">
+            <div class="public-title">
+                <span>酒店精选</span>
+            </div>
+            <div class="select-page-box">
+                <volist name="data.list" id="vo">
+                    <div class="select-img">
+                        <a href="{:U('Select/content',array('id'=>$vo['id']))}">
+                            <img src="{$vo.img}" />
+                        </a>
+                    </div>
+                    <div class="select-title">
+                        <a href="{:U('Select/content',array('id'=>$vo['id']))}">{$vo.title}</a>
+                    </div>
+                    <div class="select-page-preview">{$vo.preview}</div>
+                </volist>
+                <div class="public-page">
+                    {$data.page}
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</block>

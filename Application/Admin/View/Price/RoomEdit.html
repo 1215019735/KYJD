@@ -1,0 +1,52 @@
+<extend name="Base:Index" />
+<block name="Public">
+    <div id="content">
+        <div id="content-header">
+            <div id="breadcrumb"> <a href="javascript:void(0)" title="Go to Home" class="tip-bottom"><i class="icon-home"></i><span>首页</span></a>
+                <a href="{:U('Room')}" class="tip-bottom"><span>房型-管理</span></a>
+                <a href="{:U('RoomEdit')}" class="current">修改-房型</a></div>
+            <h1>房型-修改页面</h1>
+        </div>
+        <hr />
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="widget-box">
+                        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+                            <h5>房型</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <form id="form" method="post" class="form-horizontal" enctype="multipart/form-data">
+                                <div class="control-group">
+                                    <label class="control-label">房型 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 220px;" name="roomtype" value="{$data.roomtype}" required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">房型-英文版 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 220px;" name="eroomtype" value="{$data.eroomtype}" required />
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+                                    <div class="btn-group" style="margin-left:180px;">
+                                        <button class="btn btn-success"><i class="icon-ok"></i> 保存</button>
+                                        <button type="button" class="btn btn-success" onclick="history.back()"><i class="icon-chevron-left"></i>
+                                            取消</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        //表单验证
+        $().ready(function () {
+            $('#form').validate();
+        });
+    </script>
+</block>

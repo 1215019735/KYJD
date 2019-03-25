@@ -1,0 +1,21 @@
+<extend name="Base:index" />
+<block name="Public">
+    <div class="select-page-banner">
+        <div class="core">
+            <div class="public-title">
+                <div class="public-page-title public">{$data.etitle}</div>
+                <div class="public-page-info public">
+                    <ul>
+                        <li>Release：{$data.times}</li>
+                        <li>Browse：{$data.click}</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="public-page-content-box public">
+                <div class="public-page-content">
+                    {$data.econtent|htmlspecialchars_decode}
+                </div>
+            </div>
+        </div>
+    </div>
+</block>

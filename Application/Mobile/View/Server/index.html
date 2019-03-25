@@ -1,0 +1,40 @@
+<extend name="Base:index" />
+<block name="Public">
+    <div class="server-banner">
+        <div class="core">
+            <div class="public-title hr">
+                <span>服务设施</span>
+            </div>
+            <ul class="public-nav">
+                <volist name="nav" id="nav">
+                    <li>
+                        <a href="{:U('Server/index',array('id'=>$nav['id']))}">{$nav.name}</a>
+                    </li>
+                </volist>
+            </ul>
+            <div class="server-box">
+                <div class="server-page-main">
+                    <volist name="data.list" id="vo">
+                        <a href="{:U('Server/content',array('id'=>$vo['id']))}">
+                            <img src="{$vo.img}" width="100%" />
+                            <div class="server-page-title">{$vo.name}</div>
+                        </a>
+                    </volist>
+                    <div class="public-page">
+                        {$data.page}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var navLength = $('.public-nav>li').length;
+        var href = window.location.href.toLowerCase();
+        for (let i = 0; i < navLength; i++) {
+            var url = $('.public-nav>li').eq(i).children('a').attr('href').toLowerCase();
+            if (href.lastIndexOf(url) > -1) {
+                $('.public-nav>li').eq(i).addClass('hover').siblings().removeClass('hover');
+            }
+        }
+    </script>
+</block>

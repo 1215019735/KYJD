@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="{$C.keywords}"/>
+    <meta name="description" content="{$C.description}"/>
+    <link rel="stylesheet" href="__CSS__/style.css">
+    <link rel="stylesheet" href="__Public__/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="__Public__/swiper-4.4.1/dist/css/swiper.css">
+    <link rel="icon" href="__IMG__/icon.png" type="image/x-icon"/>
+    <title>{$C.company}</title>
+    <script src="__JS__/jquery-1.80.js"></script>
+    <script src="__Public__/jquery-animate-css-rotate-scale-master/jquery-animate-css-rotate-scale.js"></script>
+</head>
+
+<body>
+    <!-- <div id="loading">
+        <img src="__IMG__/loading.gif" />
+    </div> -->
+    <div id="header">
+        <div class="header core clearfix">
+            <div class="language">
+                <a href="{:U('/Ehome')}">
+                    <img src="__IMG__/language.png" />
+                    <span>ENGLISH</span>
+                </a>
+            </div>
+            <div class="myline">
+                <span>关注我们</span>
+                <div class="weibo">
+                    <a href="{$C.weibo}"></a>
+                </div>
+                <div class="wechat">
+                    <div class="wechat_boxs">
+                        <volist name="code" id="codes">
+                            <img src="{$codes.code}" />
+                            <span>{$codes.name}</span>
+                        </volist>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <block name="Public"></block>
+    <div class="line">
+        <div class="scrollTop">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </div>
+        <div class="telephone">
+            <a href="tel:{$C.tel}">
+                <img src="__IMG__/tel.png" />
+            </a>
+        </div>
+        <div class="qq">
+            <a href="http://wpa.qq.com/msgrd?v=3&uin={$C.qq}&site=qq&menu=yes">
+                <img src="__IMG__/qq.png" />
+            </a>
+        </div>
+        <div class="weixin">
+            <img src="__IMG__/weixin.png" />
+            <div class="wechat_box">
+                <volist name="code" id="code">
+                    <img src="{$code.code}" />
+                    <span>{$code.name}</span>
+                </volist>
+            </div>
+        </div>
+        <div class="scrollBottom">
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+        </div>
+    </div>
+</body>
+<script src="__Public__/swiper-4.4.1/dist/js/swiper.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        mousewheel: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.scrollBottom',
+            prevEl: '.scrollTop',
+        },
+        hashNavigation: {
+            watchState: true,
+        },
+    });
+
+    $(window).load(function () {
+        $('.banner>img').stop().animate({
+            scale: '1.1'
+        }, 10000);
+
+        $('.weixin').hover(function () {
+            $('.wechat_box').stop().animate({
+                'width': '120px',
+                'opacity': '1'
+            })
+        }, function () {
+            $('.wechat_box').stop().animate({
+                'width': 0,
+                'opacity': 0
+            })
+        });
+
+        $('.wechat').hover(function () {
+            $('.wechat_boxs').stop().animate({
+                'height': '150px',
+                'opacity': '1'
+            })
+        }, function () {
+            $('.wechat_boxs').stop().animate({
+                'height': 0,
+                'opacity': 0
+            })
+        });
+    });
+</script>
+
+</html>

@@ -1,0 +1,43 @@
+<extend name="Base:index" />
+<block name="Public">
+    <div class="news-banner">
+        <div class="core">
+            <div class="public-title hr">
+                <span>新闻资讯</span>
+            </div>
+            <ul class="public-nav">
+                <volist name="nav" id="nav">
+                    <li>
+                        <a href="{:U('News/index',array('id'=>$nav['id']))}">{$nav.name}</a>
+                    </li>
+                </volist>
+            </ul>
+            <div class="news-box public">
+                <ul>
+                    <volist name="data.list" id="vo">
+                        <li>
+                            <a href="{:U('News/content',array('id'=>$vo['id']))}" class="clearfix">
+                                <div class="news-titles">· {$vo.title}</div>
+                                <div class="news-times">{$vo.times}</div>
+                            </a>
+                        </li>
+                        <hr class="rule" />
+                    </volist>
+                </ul>
+                <div class="public-page">
+                    {$data.page}
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var navLength = $('.public-nav>li').length;
+        var href = window.location.href.toLowerCase();
+        for (let i = 0; i < navLength; i++) {
+            var url = $('.public-nav>li').eq(i).children('a').attr('href').toLowerCase();
+            if (href.lastIndexOf(url) > -1) {
+                $('.public-nav>li').eq(i).addClass('hover').siblings().removeClass('hover');
+            }
+        }
+    </script>
+</block>

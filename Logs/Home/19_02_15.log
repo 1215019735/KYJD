@@ -1,0 +1,18 @@
+[ 2019-02-15T22:57:39+08:00 ] 14.152.69.91 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::Show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\1\v1073125\wwwroot\Application\Home\Controller\IndexController.class.php 第 7 行.
+
+[ 2019-02-15T23:13:41+08:00 ] 182.87.32.168 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::Show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\1\v1073125\wwwroot\Application\Home\Controller\IndexController.class.php 第 7 行.
+

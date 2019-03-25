@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="__CSS__/style.css">
+    <title>SERVICE FACILITIES</title>
+</head>
+
+<body style="background: rgb(238,238,238);">
+    <div class="public_page">
+        <div class="server_box clearfix">
+            <div class="server_box clearfix">
+                <div class="server">
+                    <h1 style="border-bottom:2px solid rgb(124,124,124);color:rgb(124,124,124);">SERVICE FACILITIES</h1>
+                    <ul class="show_page_list clearfix">
+                        <volist name="data.list" id="vo">
+                            <li class="clearfix">
+                                <div class="showImg">
+                                    <img src="{$vo.img}" />
+                                </div>
+                                <div class="showCont">
+                                    <div class="showTitle">{$vo.ename}</div>
+                                    <div class="showPreview">{$vo.epreview}</div>
+                                    <a href="{:U('Server/content',array('id'=>$vo['id']))}">View all</a>
+                                </div>
+                            </li>
+                        </volist>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="public_rule" style="margin:40px auto 0 auto;" />
+        {$data.page}
+    </div>
+</body>
+<script src="__JS__/jquery-1.80.js"></script>
+<script>
+    $('.server_page_list>li').hover(function () {
+        $(this).children('a').children('.server_list_box').stop().animate({
+            'opacity': '1'
+        }).css({
+            'flter': 'Alpha(Opacity=100)'
+        });
+    }, function () {
+        $(this).children('a').children('.server_list_box').stop().animate({
+            'opacity': '0'
+        }).css({
+            'flter': 'Alpha(Opacity=0)'
+        });
+    });
+</script>
+
+</html>

@@ -1,0 +1,83 @@
+<extend name="Base:Index" />
+<block name="Public">
+    <div id="content">
+        <div id="content-header">
+            <div id="breadcrumb">
+                <a href="javascript:void(0)" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> <span>首页</span></a>
+                <a href="{:U('Index')}" class="current"><span>管理员-管理</span></a>
+            </div>
+            <h1>管理员-管理中心</h1>
+        </div>
+        <hr />
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="widget-box">
+                        <div class="widget-title"> <span class="icon"> <i class="icon-th"></i> </span>
+                            <h5>管理员</h5>
+                        </div>
+                        <form id="form" method="post">
+                            <div class="widget-content">
+                                <div class="btn-group mb10">
+                                    <a href="{:U('Add')}" class="btn btn-danger">
+                                        <i class="icon-plus"></i> 添加
+                                    </a>
+                                    <button id="delall" ajax-url="{:U('Delete')}" type="button" class="btn"
+                                        onclick="common.DelAll('#form','#delall')"><i class="icon-remove"></i> 删除所选</button>
+                                    <button type="button" class="btn" onclick="history.back()"><i class="icon-chevron-left"></i>
+                                        返回</button>
+                                </div>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th class="check">
+                                                <input type="checkbox" name="checkall" />
+                                            </th>
+                                            <th>管理员</th>
+                                            <th>名称</th>
+                                            <th>管理级别</th>
+                                            <th>登录次数</th>
+                                            <th>最后登录时间</th>
+                                            <th>最后登录地区</th>
+                                            <th>最后登录IP</th>
+                                            <th class="handle"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <foreach name="data.list" item="vo">
+                                            <tr class="odd gradeX">
+                                                <td class="center fontCenter">
+                                                    <input type="checkbox" name="checkbox" value="{$vo.id}">
+                                                </td>
+                                                <td class="center fontCenter">{$vo.loginname}</td>
+                                                <td class="center fontCenter">{$vo.truename}</td>
+                                                <td class="center fontCenter">{$vo.groupname}</td>
+                                                <td class="center fontCenter">{$vo.loginnum}</td>
+                                                <td class="center fontCenter">{$vo.lasttime}</td>
+                                                <td class="center fontCenter">{$vo.lastarea}</td>
+                                                <td class="center fontCenter">{$vo.lastip}</td>
+                                                <td class="center fontCenter">
+                                                    <div class="btn-group">
+                                                        <a href="{:U('Index/EditPwd',array('id'=>$vo['id']))}" class="btn btn-mini btn-info">
+                                                            <i class="icon-edit"></i> 修改
+                                                        </a>
+                                                        <a href="javascript:void(0);" id="delete" ajax-url="{:U('Delete')}"
+                                                            onclick="common.confAction('#delete',{id:'{$vo.id}'},'确定删除？')"
+                                                            class="btn btn-mini btn-info">
+                                                            <i class="icon-remove"></i> 删除
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </foreach>
+                                    </tbody>
+                                </table>
+                                {$data.page}
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</block>

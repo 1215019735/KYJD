@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="{$C.ekeywords}"/>
+    <meta name="description" content="{$C.edescription}"/>
+    <link rel="stylesheet" href="__CSS__/mobile.css">
+    <link rel="stylesheet" href="__Public__/swiper-4.4.1/dist/css/swiper.css">
+    <link rel="icon" href="__IMG__/icon.png" type="image/x-icon"/>
+    <title>{$C.company}</title>
+    <script src="__JS__/jquery-1.80.js"></script>
+    <script src="__JS__/mobile.js"></script>
+    <style>
+        .show-nav>li{
+            font-size: 0.24rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="loading">
+        <img src="__IMG__/loading.gif" />
+    </div> -->
+    <div class="header">
+        <div class="core clearfix">
+            <div class="logo">
+                <a href="{:U('/Emobile')}">
+                    <img src="__IMG__/mini-logo.png" />
+                </a>
+            </div>
+            <div class="menu">
+                <img src="__IMG__/menu.png" />
+            </div>
+            <div class="draw">
+                <a href="javascript:void(0)">
+                    <img src="__IMG__/draw.png" />
+                </a>
+            </div>
+            <div class="tels">
+                <a href="tel:{$C.tel}">
+                    <img src="__IMG__/mobile-tels.png" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <block name="Public"></block>
+    <div class="menu-open">
+        <div class="core">
+            <div class="close-box clearfix">
+                <div class="close">
+                    <img src="__IMG__/close.png" />
+                </div>
+            </div>
+            <ul class="menu-nav clearfix">
+                <div class="nav-top clearfix">
+                    <li>
+                        <a href="javascript:void(0)">Hotel profile</a>
+                        <ol>
+                            <li>
+                                <a href="{:U('About/index',array('category'=>1))}">Company profile</a>
+                            </li>
+                            <li>
+                                <a href="{:U('About/index',array('category'=>2))}">Culture</a>
+                            </li>
+                            <li>
+                                <a href="{:U('About/index',array('category'=>3))}">Honor</a>
+                            </li>
+                            <li>
+                                <a href="{:U('About/index',array('category'=>4))}">Activity</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="{:U('News/index')}">News</a>
+                        <ol>
+                            <li>
+                                <a href="{:U('News/index',array('id'=>1))}">Dynamics</a>
+                            </li>
+                            <li>
+                                <a href="{:U('News/index',array('id'=>2))}">Industry</a>
+                            </li>
+                            <li>
+                                <a href="{:U('News/index',array('id'=>3))}">Bulletin board</a>
+                            </li>
+                        </ol>
+                    </li>
+                </div>
+                <div class="nav-center clearfix">
+                    <li>
+                        <a href="{:U('Show/index')}">Hotel display</a>
+                        <ol>
+                            <li>
+                                <a href="{:U('Show/index',array('id'=>1))}">Guest Room</a>
+                            </li>
+                            <li>
+                                <a href="{:U('Show/index',array('id'=>2))}">Restaurant</a>
+                            </li>
+                            <li>
+                                <a href="{:U('Show/index',array('id'=>3))}">Banquet Hall</a>
+                            </li>
+                            <li>
+                                <a href="https://720yun.com/t/853jupmOzm2?scene_id=22576819">VR</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="{:U('Select/index')}">Hotel selection</a>
+                    </li>
+                    <li>
+                        <a href="{:U('Zp/index')}">Talent recruitment</a>
+                    </li>
+                    <li>
+                        <a href="{:U('Contact/index')}">Contact us</a>
+                    </li>
+                </div>
+                <div class="nav-bottom clearfix">
+                    <li>
+                        <a href="{:U('Server/index')}">Service facilities</a>
+                        <ol>
+                            <li>
+                                <a href="{:U('Server/index',array('id'=>1))}">Lobby</a>
+                            </li>
+                            <li>
+                                <a href="{:U('Server/index',array('id'=>2))}">Kangle</a>
+                            </li>
+                            <li>
+                                <a href="{:U('Server/index',array('id'=>3))}">SPA</a>
+                            </li>
+                            <li>
+                                <a href="{:U('Server/index',array('id'=>4))}">Bar</a>
+                            </li>
+                            <li>
+                                <a href="{:U('Server/index',array('id'=>5))}">KTV</a>
+                            </li>
+                            <li>
+                                <a href="{:U('Server/index',array('id'=>6))}">Exe Lounge</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Language</a>
+                        <ol>
+                            <li>
+                                <a href="{:U('/Mobile')}">Chinese</a>
+                            </li>
+                            <li>
+                                <a href="{:U('/Emobile')}">English</a>
+                            </li>
+                        </ol>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="order-form-box">
+        <div class="order-form">
+            <h1>Hotel Reservation</h1>
+            <form method="POST">
+                <ul>
+                    <li>
+                        <input type="text" name="start" id="start" placeholder="Check in" onfocus="common.dateAction('#start','#start')" />
+                        <img src="__IMG__/mobile-time.png" id="startimg" onclick="common.dateAction('#start','#startimg')" />
+                    </li>
+                    <li>
+                        <input type="text" name="end" id="end" placeholder="Leaving shop" onfocus="common.dateAction('#end','#end')" />
+                        <img src="__IMG__/mobile-time.png" id="endimg" onclick="common.dateAction('#end','#endimg')" />
+                    </li>
+                    <li>
+                        <input type="text" name="name" id="name" placeholder="name" />
+                    </li>
+                    <li>
+                        <input type="text" name="tel" id="tel" placeholder="telephone" />
+                    </li>
+                    <li>
+                        <input type="text" name="count" id="count" placeholder="Please enter the number of rooms" />
+                    </li>
+                    <li>
+                        <select name="category" id="category">
+                            <option value="">Please choose the room type</option>
+                            <volist name="pricecate" id="T">
+                                <option value="{$T.id}">{$T.eroomtype}</option>
+                            </volist>
+                        </select>
+                    </li>
+                    <li>
+                        <input type="text" name="price" id="price" placeholder="Price" disabled />
+                    </li>
+                </ul>
+                <div class="submit">
+                    <a href="javascript:void(0)" id="submit">
+                        <img src="__IMG__/mobile-submit.png" />
+                        <span>Immediate Reservation</span>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="wechat-open">
+        <div class="close-box clearfix">
+            <div class="close">
+                <img src="/Public/Home/Images/close.png">
+            </div>
+        </div>
+        <div class="wechat-box">
+            <volist name="code" id="code">
+                <img src="{$code.code}" />
+                <span>{$code.ename}</span>
+            </volist>
+        </div>
+    </div>
+</body>
+<script src="__Public__/swiper-4.4.1/dist/js/swiper.js"></script>
+<script src="__Public__/layDate-v5.0.9/laydate/laydate.js"></script>
+<script>
+    /************************ 价格 ************************/
+    var Cate = $('#category');
+    var Count = $('#count');
+    var Price = $('#price');
+    $('select').change(function () {
+        var cateValue = Cate.val();
+        var countValue = Count.val();
+        $.ajax({
+            type: 'POST',
+            url: '/Emobile/Base/Price',
+            data: {
+                'cate': cateValue,
+                'count': countValue
+            },
+            dataType: 'JSON',
+            success: function (data) {
+                if (data.status == 0) {
+                    Price.val('');
+                } else {
+                    Price.val(data + 'RMB');
+                }
+            }
+        });
+    });
+
+    Count.bind('input propertychange', function () {
+        var cateValue = Cate.val();
+        var countValue = Count.val();
+        $.ajax({
+            type: 'POST',
+            url: '/Emobile/Index/Price',
+            data: {
+                'cate': cateValue,
+                'count': countValue
+            },
+            dataType: 'JSON',
+            success: function (data) {
+                if (data.status == 0) {
+                    Price.val('');
+                } else {
+                    Price.val(data + 'RMB');
+                }
+            }
+        });
+    });
+
+    /************************ 订单 ************************/
+    var Start = $('#start');
+    var End = $('#end');
+    var Name = $('#name');
+    var Tel = $('#tel');
+    $('#submit').click(function () {
+        var StartValue = Start.val();
+        var EndValue = End.val();
+        var NameValue = Name.val();
+        var TelValue = Tel.val();
+        var CateValue = Cate.val();
+        var CountValue = Count.val();
+        var PriceValue = Price.val();
+        var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
+        if (StartValue == "") {
+            alert('请输入入住时间！');
+            $('#start').focus();
+            return false;
+        } else if (EndValue == "") {
+            alert('请输入离店时间！');
+            $('#end').focus();
+            return false;
+        } else if (NameValue == "") {
+            alert('请输入您的姓名！');
+            $('#name').focus();
+            return false;
+        } else if (!myreg.test(TelValue)) {
+            alert('请输入有效的电话号码！');
+            $('#tel').focus();
+            return false;
+        } else if (CateValue == "") {
+            alert('请选择房间数！');
+            return false;
+        } else if (CountValue == "") {
+            alert('请选择房型！');
+            return false;
+        } else {
+            $.ajax({
+                type: 'POST',
+                url: '/Emobile/Base/Pay',
+                data: {
+                    'start': StartValue,
+                    'end': EndValue,
+                    'name': NameValue,
+                    'tel': TelValue,
+                    'roomtype': CateValue,
+                    'roomcount': CountValue,
+                    'price': PriceValue
+                },
+                dataType: 'JSON',
+                success: function (data) {
+                    Start.val("");
+                    End.val("");
+                    Name.val("");
+                    Tel.val("");
+                    Cate.val("");
+                    Count.val("");
+                    Price.val("");
+                    alert('订单提交成功！');
+                }
+            });
+        }
+    });
+
+    //日历
+    var common = {
+        dateAction:function($this,$id){
+            //外部事件调用
+            laydate.render({
+                elem: $this,
+                lang:'en',
+                show: true, //直接显示
+                closeStop: $id //这里代表的意思是：点击 $id 所在元素阻止关闭事件冒泡。如果不设定，则无法弹出控件
+            });
+        }
+    }
+</script>
+
+</html>

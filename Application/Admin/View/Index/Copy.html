@@ -1,0 +1,157 @@
+<extend name="Base:Index" />
+<block name="Public">
+    <div id="content">
+        <div id="content-header">
+            <div id="breadcrumb">
+                <a href="javascript:void(0)" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> <span>首页</span></a>
+                <a href="{:U('Copy')}" class="current"><span>版权-管理</span></a>
+            </div>
+            <h1>版权-管理中心</h1>
+        </div>
+        <hr />
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="widget-box">
+                        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+                            <h5>版权修改</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <form id="form" method="post" class="form-horizontal" enctype="multipart/form-data">
+                                <div class="control-group">
+                                    <label class="control-label">关键词 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="关键词" name="keywords"
+                                            value="{$data.keywords}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">描述 :</label>
+                                    <div class="controls">
+                                        <textarea name="description" style="width: 285px;height: 200px;">{$data.description}</textarea>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">公司名称 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="公司名称" name="company"
+                                            value="{$data.company}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">电话 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="电话" name="telephone"
+                                            value="{$data.telephone}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">传真号码 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="传真号码" name="ctel"
+                                            value="{$data.ctel}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">联系电话 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="联系电话" name="tel"
+                                            value="{$data.tel}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">地址 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="地址" name="address"
+                                            value="{$data.address}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">邮政编码 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="邮政编码" name="email"
+                                            value="{$data.email}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">QQ :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="QQ" name="qq"
+                                            value="{$data.qq}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">微博链接 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="微博链接" name="weibo"
+                                            value="{$data.weibo}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">网站备案 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="网站备案" name="icp"
+                                            value="{$data.icp}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">关键词-英文版 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="关键词-英文版"
+                                            name="ekeywords" value="{$data.ekeywords}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">描述-英文版 :</label>
+                                    <div class="controls">
+                                        <textarea name="edescription" style="width: 285px;height: 200px;">{$data.edescription}</textarea>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">公司名称-英文版 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="公司名称-英文版"
+                                            name="ecompany" value="{$data.ecompany}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">地址-英文版 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="地址-英文版"
+                                            name="eaddress" value="{$data.eaddress}" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">网站备案-英文版 :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" style="width: 300px;" placeholder="网站备案-英文版"
+                                            name="eicp" value="{$data.eicp}" />
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+                                    <div class="btn-group" style="margin-left:180px;">
+                                        <button class="btn btn-success"><i class="icon-ok"></i> 保存</button>
+                                        <button type="button" class="btn btn-success" onclick="history.back()"><i class="icon-chevron-left"></i>
+                                            取消</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="__Public__/kindeditor/kindeditor-all.js"></script>
+    <script src="__Public__/kindeditor/lang/zh-CN.js"></script>
+    <script src="__Public__/kindeditor/plugins/code/prettify.js"></script>
+    <script>
+        $(document).ready(function () {
+            //表单验证
+            $().ready(function () {
+                $('#form').validate();
+            });
+        })
+    </script>
+</block>

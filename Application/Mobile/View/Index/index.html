@@ -1,0 +1,429 @@
+<extend name="Base:index" />
+<block name="Public">
+    <div class="scroll">
+        <div class="scroll-box swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="home-banner">
+                        <div class="public core">
+                            <div class="home-title">GRAND NEW CENTURY HOTEL FUZHOU JIANGXI</div>
+                            <div class="home-titles">抚州凤凰开元名都大酒店</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-banner">
+                        <div class="core">
+                            <div class="public-title">
+                                <span>企业简介</span>
+                            </div>
+                            <volist name="about" id="A" offset="0" length="1">
+                                <div class="about-content-box public">
+                                    <div class="about-content">
+                                        {$A.preview}
+                                    </div>
+                                    <a href="{:U('About/index',array('category'=>$A['category']))}" class="about-more clearfix">
+                                        <span>查看详情</span>
+                                        <img src="__IMG__/mobile-right.png" />
+                                    </a>
+                                </div>
+                            </volist>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="show-banner">
+                        <div class="core">
+                            <div class="public-title hr">
+                                <span>酒店展示</span>
+                            </div>
+                            <ul class="show-nav">
+                                <volist name="showcate" id="SC">
+                                    <li data-id="{$SC.id}">{$SC.name}</li>
+                                </volist>
+                                <div class="vr">
+                                    <a href="https://720yun.com/t/853jupmOzm2?scene_id=22576819">VR</a>
+                                </div>
+                            </ul>
+                            <div class="show-box public">
+                                <div class="show-main">
+                                    <div class="show-main-img"></div>
+                                </div>
+                                <ul class="show-main-nav"></ul>
+                                <a href="{:U('Show/index')}" class="show-more clearfix">
+                                    <span>查看全部</span>
+                                    <img src="__IMG__/mobile-rights.png" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="server-banner">
+                        <div class="core">
+                            <div class="public-title">
+                                <span>服务设施</span>
+                            </div>
+                            <div class="server-box">
+                                <div class="server-main">
+                                    <div class="swiper-wrapper">
+                                        <volist name="server" id="S">
+                                            <div class="swiper-slide">
+                                                <a href="{:U('Server/content',array('id'=>$S['id']))}">
+                                                    <img src="{$S.img}" width="100%" />
+                                                    <div class="server-title">{$S.name}</div>
+                                                </a>
+                                            </div>
+                                        </volist>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination-server"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="news-banner">
+                        <div class="core">
+                            <div class="public-title">
+                                <span>新闻资讯</span>
+                            </div>
+                            <div class="news-box public">
+                                <volist name="news" id="N" offset="0" length="1">
+                                    <div class="news-img">
+                                        <a href="{:U('News/content',array('id'=>$N['id']))}">
+                                            <img src="{$N.img}" />
+                                        </a>
+                                    </div>
+                                    <div class="news-title">
+                                        <a href="{:U('News/content',array('id'=>$N['id']))}">{$N.title}</a>
+                                    </div>
+                                    <div class="news-preview">
+                                        {$N.preview}
+                                    </div>
+                                </volist>
+                                <hr class="rule" />
+                                <ul>
+                                    <volist name="news" id="N" offset="1" length="2">
+                                        <li>
+                                            <a href="{:U('News/content',array('id'=>$N['id']))}" class="clearfix">
+                                                <div class="news-titles">· {$N.title}</div>
+                                                <div class="news-times">{$N.times}</div>
+                                            </a>
+                                        </li>
+                                    </volist>
+                                </ul>
+                                <a href="{:U('News/index')}" class="news-more clearfix">
+                                    <span>查看全部</span>
+                                    <img src="__IMG__/mobile-rights.png" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="select-banner">
+                        <div class="core">
+                            <div class="public-title">
+                                <span>酒店精选</span>
+                            </div>
+                            <div class="select-box public">
+                                <div class="swiper-wrapper">
+                                    <volist name="jx" id="J">
+                                        <div class="swiper-slide">
+                                            <div class="select-img">
+                                                <a href="{:U('Select/content',array('id'=>$J['id']))}">
+                                                    <img src="{$J.img}" />
+                                                </a>
+                                            </div>
+                                            <div class="select-title">
+                                                <a href="{:U('Select/content',array('id'=>$J['id']))}">{$J.title}</a>
+                                            </div>
+                                            <div class="select-preview">{$J.preview}</div>
+                                        </div>
+                                    </volist>
+                                </div>
+                                <div class="swiper-pagination-select"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="zp-banner">
+                        <div class="core">
+                            <div class="public-title">
+                                <span>人才招聘</span>
+                            </div>
+                            <div class="zp-box public">
+                                <volist name="zp" id="Z">
+                                    <ul class="zp_type clearfix">
+                                        <li>招聘岗位：{$Z.posts}</li>
+                                        <li>学历要求：{$Z.qualifications}</li>
+                                        <li>【{$Z.times}】</li>
+                                    </ul>
+                                    <div class="zp_content">
+                                        {$Z.preview}
+                                    </div>
+                                </volist>
+                                <a href="{:U('Zp/index')}" class="zp-more clearfix">
+                                    <span>查看全部</span>
+                                    <img src="__IMG__/mobile-rights.png" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="contact-banner">
+                        <div class="core">
+                            <div class="public-title">
+                                <span>联系我们</span>
+                            </div>
+                            <div class="contact-box public">
+                                <div class="code">
+                                    <volist name="code" id="codes">
+                                        <img src="{$codes.code}" />
+                                    </volist>
+                                </div>
+                                <ul>
+                                    <li>{$C.company}</li>
+                                    <li>联系电话：{$C.telephone}</li>
+                                    <li>传真号码：{$C.ctel}</li>
+                                    <li>邮政编码：{$C.email}</li>
+                                    <li>地址：{$C.address}</li>
+                                    <li>备案号：{$C.icp}</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="line">
+                            <div class="core">
+                                <div class="line-box clearfix">
+                                    <a href="{:U('/Mobile')}" class="language clearfix">
+                                        <span>Chinese</span>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="tel:{$C.tel}">
+                                                <img src="__IMG__/mobile-tel.png" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://wpa.qq.com/msgrd?v=3&uin={$C.qq}&site=qq&menu=yes">
+                                                <img src="__IMG__/mobile-qq.png" />
+                                            </a>
+                                        </li>
+                                        <li class="wechat">
+                                            <img src="__IMG__/mobile-wechat.png" />
+                                        </li>
+                                        <li>
+                                            <a href="{:U('Contact/index')}">
+                                                <img src="__IMG__/mobile-position.png" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-logo">
+                                    <a href="{:U('/')}">
+                                        <img src="__IMG__/mini-footer-logo.png" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="__Public__/swiper-4.4.1/dist/js/swiper.js"></script>
+    <script>
+        $('.show-nav>li').click(function () {
+            var _id = $(this).attr('data-id');
+            $.ajax({
+                type: 'POST',
+                url: '/Mobile/Index/Show',
+                data: {
+                    'id': _id
+                },
+                dataType: 'JSON',
+                success: function (data) {
+                    $('.show-main-nav').empty();
+                    for (let i = 0; i < data.length && i < 3; i++) {
+                        $('.show-main-nav').append('<li data-cate="' + data[i].category + '"><img src="' + data[i].img + '" /></li>');
+                    }
+
+                    $('.show-main-nav>li:first').addClass('left');
+                    $('.show-main-nav>li:last').addClass('right');
+
+                    var _cates = $('.show-main-nav>li:first').attr('data-cate');
+                    $.ajax({
+                        type: 'POST',
+                        url: '/Mobile/Index/Showin',
+                        data: {
+                            'cate': _cates
+                        },
+                        dataType: 'JSON',
+                        success: function (data) {
+                            $('.show-main-img').empty();
+                            $('.show-main-img').append("<div class='swiper-button-next'></div>");
+                            $('.show-main-img').append("<div class='swiper-button-prev'></div>");
+                            $('.show-main-img').append('<ul class="swiper-wrapper"></ul>');
+                            for (let i = 0; i < data.length; i++) {
+                                $('.show-main-img>ul').append("<li class='swiper-slide'><img src='" + data[i].img + "' /></li>");
+                            }
+
+                            var swiper_show = new Swiper('.show-main-img', {
+                                centeredSlides: true,
+                                observer: true,
+                                observeParents: true,
+                                autoplay: {
+                                    delay: 3000,
+                                    disableOnInteraction: false,
+                                },
+                                pagination: {
+                                    el: '.swiper-pagination',
+                                    clickable: true,
+                                },
+                                navigation: {
+                                    nextEl: '.swiper-button-next',
+                                    prevEl: '.swiper-button-prev',
+                                },
+                            });
+                        }
+                    });
+
+                    $('.show-main-nav>li').click(function () {
+                        var _cate = $(this).attr('data-cate');
+                        $.ajax({
+                            type: 'POST',
+                            url: 'Mobile/Index/Showin',
+                            data: {
+                                'cate': _cate
+                            },
+                            dataType: 'JSON',
+                            success: function (data) {
+                                $('.show-main-img').empty();
+                                $('.show-main-img').append("<div class='swiper-button-next'></div>");
+                                $('.show-main-img').append("<div class='swiper-button-prev'></div>");
+                                $('.show-main-img').append('<ul class="swiper-wrapper"></ul>');
+                                for (let i = 0; i < data.length; i++) {
+                                    $('.show-main-img>ul').append("<li class='swiper-slide'><img src='" + data[i].img + "' /></li>");
+                                }
+
+                                var swiper_show = new Swiper('.show-main-img', {
+                                    centeredSlides: true,
+                                    observer: true,
+                                    observeParents: true,
+                                    autoplay: {
+                                        delay: 3000,
+                                        disableOnInteraction: false,
+                                    },
+                                    pagination: {
+                                        el: '.swiper-pagination',
+                                        clickable: true,
+                                    },
+                                    navigation: {
+                                        nextEl: '.swiper-button-next',
+                                        prevEl: '.swiper-button-prev',
+                                    },
+                                });
+                            }
+                        });
+                    });
+                }
+            });
+        });
+
+        var _ids = $('.show-nav>li:first').attr('data-id');
+        $.ajax({
+            type: 'POST',
+            url: '/Mobile/Index/Show',
+            data: {
+                'id': _ids
+            },
+            success: function (data) {
+                for (let i = 0; i < data.length && i < 3; i++) {
+                    $('.show-main-nav').append('<li data-cate="' + data[i].category + '"><img src="' + data[i].img + '" /></li>');
+                }
+
+                $('.show-main-nav>li:first').addClass('left');
+                $('.show-main-nav>li:last').addClass('right');
+
+                var _cates = $('.show-main-nav>li:first').attr('data-cate');
+                $.ajax({
+                    type: 'POST',
+                    url: '/Mobile/Index/Showin',
+                    data: {
+                        'cate': _cates
+                    },
+                    dataType: 'JSON',
+                    success: function (data) {
+                        $('.show-main-img').empty();
+                        $('.show-main-img').append("<div class='swiper-button-next'></div>");
+                        $('.show-main-img').append("<div class='swiper-button-prev'></div>");
+                        $('.show-main-img').append('<ul class="swiper-wrapper"></ul>');
+                        for (let i = 0; i < data.length; i++) {
+                            $('.show-main-img>ul').append("<li class='swiper-slide'><img src='" + data[i].img + "' /></li>");
+                        }
+
+                        var swiper_show = new Swiper('.show-main-img', {
+                            centeredSlides: true,
+                            observer: true,
+                            observeParents: true,
+                            autoplay: {
+                                delay: 3000,
+                                disableOnInteraction: false,
+                            },
+                            pagination: {
+                                el: '.swiper-pagination',
+                                clickable: true,
+                            },
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
+                            },
+                        });
+                    }
+                });
+
+                $('.show-main-nav>li').click(function () {
+                    var _cate = $(this).attr('data-cate');
+                    $.ajax({
+                        type: 'POST',
+                        url: '/Mobile/Index/Showin',
+                        data: {
+                            'cate': _cate
+                        },
+                        dataType: 'JSON',
+                        success: function (data) {
+                            $('.show-main-img').empty();
+                            $('.show-main-img').append("<div class='swiper-button-next'></div>");
+                            $('.show-main-img').append("<div class='swiper-button-prev'></div>");
+                            $('.show-main-img').append('<ul class="swiper-wrapper"></ul>');
+                            for (let i = 0; i < data.length; i++) {
+                                $('.show-main-img>ul').append("<li class='swiper-slide'><img src='" + data[i].img + "' /></li>");
+                            }
+
+                            var swiper_show = new Swiper('.show-main-img', {
+                                centeredSlides: true,
+                                observer: true,
+                                observeParents: true,
+                                autoplay: {
+                                    delay: 3000,
+                                    disableOnInteraction: false,
+                                },
+                                pagination: {
+                                    el: '.swiper-pagination',
+                                    clickable: true,
+                                },
+                                navigation: {
+                                    nextEl: '.swiper-button-next',
+                                    prevEl: '.swiper-button-prev',
+                                },
+                            });
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</block>

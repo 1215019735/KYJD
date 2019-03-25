@@ -1,0 +1,63 @@
+<extend name="Base:Index" />
+<block name="Public">
+    <div id="content">
+        <div id="content-header">
+            <div id="breadcrumb"> <a href="javascript:void(0)" title="Go to Home" class="tip-bottom"><i class="icon-home"></i><span>首页</span></a>
+                <a href="{:U('EditPwd')}" class="tip-bottom"><span>修改-管理员密码密码</span></a>
+            </div>
+            <h1>管理员密码-修改页面</h1>
+        </div>
+        <hr />
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="widget-box">
+                        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+                            <h5>修改密码</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <form id="form" method="post" class="form-horizontal" enctype="multipart/form-data">
+                                <div class="control-group">
+                                    <label class="control-label">原密码 :</label>
+                                    <div class="controls">
+                                        <input type="password" class="span11" style="width: 240px;" placeholder="原密码"
+                                            name="oldPass" required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">新密码 :</label>
+                                    <div class="controls">
+                                        <input type="password" class="span11" style="width: 240px;" placeholder="新密码"
+                                            name="newPass" required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">确认密码 :</label>
+                                    <div class="controls">
+                                        <input type="password" class="span11" placeholder="确认密码" name="repeatPass"
+                                            style="width: 240px;" required />
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+                                    <div class="btn-group" style="margin-left:180px;">
+                                        <button class="btn btn-success"><i class="icon-ok"></i> 保存</button>
+                                        <button type="button" class="btn" onclick="history.back()"><i class="icon-chevron-left"></i>
+                                            取消</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            //表单验证
+            $().ready(function () {
+                $('#form').validate();
+            });
+        });
+    </script>
+</block>

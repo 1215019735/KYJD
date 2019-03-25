@@ -1,0 +1,16 @@
+<extend name="Base:index" />
+<block name="Public">
+    <div class="about-page-banner">
+        <div class="core">
+            <div class="public-title">
+                <span>{$data.name}</span>
+                <em>{$big}</em>
+            </div>
+            <div class="public-page-content-box public">
+                <div class="public-page-content">
+                    {$data.content|htmlspecialchars_decode}
+                </div>
+            </div>
+        </div>
+    </div>
+</block>

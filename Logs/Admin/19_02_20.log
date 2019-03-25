@@ -1,0 +1,772 @@
+[ 2019-02-20T10:51:17+08:00 ] 171.35.128.162 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-02-20T10:51:17+08:00 ] 171.35.128.162 /Admin/Login/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-02-20T10:51:39+08:00 ] 171.35.128.162 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-02-20T10:51:39+08:00 ] 171.35.128.162 /Admin/Login/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-02-20T10:52:16+08:00 ] 61.129.6.151 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-02-20T10:52:29+08:00 ] 180.163.220.5 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-02-20T10:52:41+08:00 ] 180.163.220.5 /Admin/Login/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-02-20T10:52:58+08:00 ] 171.35.128.162 /Admin/Login/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: PRAGMA table_info( db_admin ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: validate D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM db_admin WHERE loginname = 'Sadmin' AND password = 'ece89e1ed092146ef6f8a86aa211a3c3' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-20T10:53:01+08:00 ] 171.35.128.162 /Admin/Login/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-02-20T10:53:16+08:00 ] 171.35.128.162 /Admin/Login/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-02-20T10:53:21+08:00 ] 171.35.128.162 /Admin/Login/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-02-20T10:53:27+08:00 ] 171.35.128.162 /Admin/Login/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: PRAGMA table_info( db_admin ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: validate D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM db_admin WHERE loginname = 'Sadmin' AND password = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE db_admin SET loginnum='49',lasttime='2019-02-20 10:53:27',lastip='171.35.128.162',lastarea='江西省抚州市',tokencode='U2FkbWluLDE1NTA2MzEyMDc=',tokendeadline='1550638407' WHERE id = '7fececc8934b29bafa1aa86d7f77c2c4' [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: tokenCode D:\1\v1073125\wwwroot\Application\Admin\Common\function.php 第 120 行.
+
+[ 2019-02-20T10:53:27+08:00 ] 171.35.128.162 /Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-02-20T10:53:38+08:00 ] 171.35.128.162 /Admin/Show/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: PRAGMA table_info( db_show ) [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM db_show LIMIT 1   [ RunTime:0.0000s ]
+SQL: PRAGMA table_info( db_showcate ) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+SQL: SELECT * FROM db_showcate  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ccate D:\1\v1073125\wwwroot\Application\Admin\Controller\ShowController.class.php 第 27 行.
+SQL: SELECT A.id as id,A.img,A.times,A.orderid,B.name FROM db_show A left join db_ShowCate B on B.id=A.category  ORDER BY A.orderid desc LIMIT 15 OFFSET 0   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-02-20T10:53:57+08:00 ] 42.236.10.124 /Admin/Show/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-02-20T10:54:02+08:00 ] 42.236.10.124 /Admin/Login/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-02-20T10:54:25+08:00 ] 42.236.10.78 /Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-02-20T10:54:33+08:00 ] 42.236.10.78 /Admin/Login/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-02-20T16:36:45+08:00 ] 220.175.36.173 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-02-20T16:36:46+08:00 ] 220.175.36.173 /Admin/Login/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-02-20T16:36:46+08:00 ] 220.175.36.173 /Admin/Login/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-02-20T16:37:07+08:00 ] 220.175.36.173 /Admin/Login/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: PRAGMA table_info( db_admin ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: validate D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM db_admin WHERE loginname = 'Sadmin' AND password = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE db_admin SET loginnum='50',lasttime='2019-02-20 16:37:07',lastip='220.175.36.173',lastarea='江西省南昌市',tokencode='U2FkbWluLDE1NTA2NTE4Mjc=',tokendeadline='1550659027' WHERE id = '7fececc8934b29bafa1aa86d7f77c2c4' [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: tokenCode D:\1\v1073125\wwwroot\Application\Admin\Common\function.php 第 120 行.
+
+[ 2019-02-20T16:37:07+08:00 ] 220.175.36.173 /Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-02-20T16:37:14+08:00 ] 220.175.36.173 /Admin/Zp/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: PRAGMA table_info( db_zp ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+SQL: SELECT * FROM db_zp  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-02-20T16:37:16+08:00 ] 220.175.36.173 /Admin/Zp/Edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: PRAGMA table_info( db_zp ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+SQL: SELECT * FROM db_zp WHERE id = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-02-20T16:38:09+08:00 ] 220.175.36.173 /Admin/About/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: PRAGMA table_info( db_about ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+SQL: SELECT A.id as id,A.icon,B.name FROM db_about A left join db_AboutCate B on B.id=A.category   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-02-20T16:38:19+08:00 ] 220.175.36.173 /Admin/Code/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: PRAGMA table_info( db_code ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+NOTIC: [8] Undefined index: null D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 45 行.
+NOTIC: [8] Undefined index: default D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 46 行.
+NOTIC: [8] Undefined index: dey D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 47 行.
+NOTIC: [8] Undefined index: extra D:\1\v1073125\wwwroot\ThinkPHP\Library\Think\Db\Driver\Sqlite.class.php 第 48 行.
+SQL: SELECT * FROM db_code  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
